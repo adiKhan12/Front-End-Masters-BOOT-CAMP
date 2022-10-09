@@ -1,0 +1,73 @@
+/*my bootcamp css*/
+
+/*no box sizing*/
+* {
+  box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D9D9D9;
+}
+h1, h2, h3{
+    font-family: 'Lobster', cursive;
+    color: #F27457;
+    text-align: center;
+}
+.kitten{
+    border: 10px solid rgb(138, 227, 126);
+    border-style: dashed;
+}
+
+h1{
+    border: 10px solid #BFBCBA; 
+    text-align: center;
+
+}
+
+blockquote{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+cite{
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align:left;
+}
+
+.big-bold{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+/*make list dots disappear and links underline disappear*/
+
+.nav1{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    gap: 1.3rem;
+}
+
+.nav1 li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.nav1 li a:link{
+    color: rgb(228, 86, 219);
+}
+
+.nav1 li a:visited{
+    color: rgb(228, 86, 219);
+}
+.nav1 li a:hover{
+    background-color: rgb(138, 227, 126);
+    text-decoration: underline;
+    padding: 1rem;
+}
