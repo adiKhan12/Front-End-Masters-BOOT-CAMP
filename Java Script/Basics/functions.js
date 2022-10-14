@@ -31,3 +31,11 @@ console.log(sentence.toLowerCase())
 console.log(Math.round(5.263))
 
 console.log(sentence.substring())
+
+// sort array
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 2, 8,  8, 9, 10];
+
+
+console.log(numbers.join(" "));
+
